@@ -54,7 +54,7 @@ export function StockChart({ stockData }: { stockData: any }) {
   );
 }
 
-function Home() {
+function Chart() {
   const dispatch = useDispatch<AppDispatch>();
   const { stocks, stockData } = useSelector((state: RootState) => state.stock);
 
@@ -147,4 +147,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Chart;
